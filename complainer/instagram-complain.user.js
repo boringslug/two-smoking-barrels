@@ -32,18 +32,22 @@
       doc => Array.from(doc.querySelectorAll('button')).find(el => el.innerHTML.includes('Він публікує контент')),
       doc => Array.from(doc.querySelectorAll('button')).find(el => el.innerHTML.includes('Мова ворожнечі')),
       doc => Array.from(doc.querySelectorAll('button')).find(el => el.textContent.includes('Надіслати скаргу'))
-    ]
+    ];
 
     function complainToTheUser(i = 0) {
       if (i >= elements.length) return;
 
-      const element = elements[i](document);
-
-      if (element) {
-        element.click();
-        setTimeout(() => complainToTheUser(i + 1), INTERVAL);
-      } else {
-        setTimeout(() => complainToTheUser(i), INTERVAL);
+      try {
+        const element = elements[i](document);
+  
+        if (element) {
+          element.click();
+          setTimeout(() => complainToTheUser(i + 1), INTERVAL);
+        } else {
+          setTimeout(() => complainToTheUser(i), INTERVAL);
+        }
+      } catch {
+        return console.log('Потрібно бути на сторінці користувача')
       }
     }
   }
