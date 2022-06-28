@@ -1,0 +1,22 @@
+{
+	"name": "Complainer",
+	"description" : "Скарга на орка в 1 клік",
+	"version": "1.0",
+	"manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.instagram.com/*"
+      ],
+      "js": ["instagram-complain.user.js" ]
+    }
+  ],
+  "browser_action": {
+		"default_icon": {
+			"128": "icon-256x256.png"
+		}
+	},
+	"icons": {
+		"128": "icon-256x256.png"
+	}
+}
