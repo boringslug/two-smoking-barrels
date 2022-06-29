@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/two-smoking-barrels/static/css/main.20e2d4e2.css",
-    "main.js": "/two-smoking-barrels/static/js/main.a40da8d6.js",
+    "main.js": "/two-smoking-barrels/static/js/main.1552e796.js",
     "static/js/787.c6006e9a.chunk.js": "/two-smoking-barrels/static/js/787.c6006e9a.chunk.js",
     "index.html": "/two-smoking-barrels/index.html",
     "main.20e2d4e2.css.map": "/two-smoking-barrels/static/css/main.20e2d4e2.css.map",
-    "main.a40da8d6.js.map": "/two-smoking-barrels/static/js/main.a40da8d6.js.map",
+    "main.1552e796.js.map": "/two-smoking-barrels/static/js/main.1552e796.js.map",
     "787.c6006e9a.chunk.js.map": "/two-smoking-barrels/static/js/787.c6006e9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20e2d4e2.css",
-    "static/js/main.a40da8d6.js"
+    "static/js/main.1552e796.js"
   ]
 }
