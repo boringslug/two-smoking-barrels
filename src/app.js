@@ -12,7 +12,10 @@ function App() {
 
       <div className='list'>
         <a href="https://github.com/boringslug/two-smoking-barrels">Github</a>
-        <a href="files/complainer.crx">Розширення Chrome для скарг на орків в 1 клік (наразі тільки instagram)</a>
+        <div>
+          <a href="files/complainer.crx">Розширення Chrome</a>
+          для скарг на орків в 1 клік (instagram, youtube)
+        </div>
       </div>
     </main>
   );
